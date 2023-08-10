@@ -1,9 +1,12 @@
 
+import Header from "@/components/home/Header";
+import Cards from "@/components/home/Cards";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      home page
-    </main>
+    <>
+        <Header/>
+        <Cards/>
+    </>
   )
 }
