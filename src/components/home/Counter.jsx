@@ -44,7 +44,7 @@ function Counter() {
                         </div>
                         <div className="">
                             <div className=" mb-16 ">
-                                <div className="text-center text-white flex flex-col">
+                                <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/costumer.png" alt="costumer" width={0}
                                                height={0}
@@ -67,7 +67,7 @@ function Counter() {
                         </div>
                         <div className="">
                             <div className=" mb-16 ">
-                                <div className="text-center text-white flex flex-col">
+                                <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/support.png" alt="costumer" width={0}
                                                height={0}
@@ -90,7 +90,7 @@ function Counter() {
                         </div>
                         <div className="">
                             <div className=" mb-16 ">
-                                <div className="text-center text-white flex flex-col">
+                                <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/project-management.png" alt="costumer" width={0}
                                                height={0}
