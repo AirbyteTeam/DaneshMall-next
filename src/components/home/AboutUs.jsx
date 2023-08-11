@@ -7,7 +7,7 @@ function AboutUs() {
         <section className="bg-white pb-20">
             <div className="flex flex-col justify-center items-center text-center">
                 <h2 className="mt-5 w-[8rem] h-[2rem] bg-[#FFF1EC] text-mainOrange rounded-full text-[1rem]">
-                    درباره ما
+                    درباره دانش مال
                 </h2>
                 <h3 className="mt-10 font-bold text-[1.7rem]">
                     دانش‌مال نخستین و بزرگترین نمایشگاه و بازار محصولات دانش بنیان

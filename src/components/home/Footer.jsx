@@ -89,6 +89,9 @@ function Footer() {
                     </div>
                 </div>
             </div>
+            <div className="bg-mainOrange text-center py-3">
+                © تمامی حقوق وبسایت برای شرکت توسعه کسب‌وكار خلاق و نوآور آرمان محفوظ می‌باشد
+            </div>
         </footer>
     );
 }
