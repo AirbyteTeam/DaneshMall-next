@@ -20,7 +20,7 @@ function Counter() {
                 <div className="bg-mainBg rounded-t-[3rem] ">
                     <div className="lg:flex lg:justify-evenly grid sm:grid-cols-3 grid-cols-1 pt-20">
                         <div className="">
-                            <div className=" mb-16 ">
+                            <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/medal.png" alt="costumer" width={0}
@@ -43,7 +43,7 @@ function Counter() {
                             </div>
                         </div>
                         <div className="">
-                            <div className=" mb-16 ">
+                            <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/costumer.png" alt="costumer" width={0}
@@ -66,7 +66,7 @@ function Counter() {
                             </div>
                         </div>
                         <div className="">
-                            <div className=" mb-16 ">
+                            <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/support.png" alt="costumer" width={0}
@@ -89,7 +89,7 @@ function Counter() {
                             </div>
                         </div>
                         <div className="">
-                            <div className=" mb-16 ">
+                            <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
                                         <Image src="/project-management.png" alt="costumer" width={0}
