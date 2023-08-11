@@ -5,3 +5,20 @@
 body{
     direction: rtl !important;
 }
+.cardImage2{
+    display: none;
+   
+}
+.cardcontainer:hover .cardImage2 {
+
+    display:block;
+    
+   
+}
+.cardcontainer:hover .cardImage1 {
+
+    display: none;
+   
+}
+.opacity{
+    opacity: 0.2;}
