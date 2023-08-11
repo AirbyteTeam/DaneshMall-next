@@ -7,7 +7,7 @@ import {IoLogoWhatsapp} from "react-icons/io";
 function Footer() {
     return (
         <footer>
-            <div className="bg-mainBg py-20 px-16">
+            <div className="bg-mainBg py-16 px-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-20 ">
                     <div className="">
                         <div className="w-[90%]">
@@ -89,7 +89,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="bg-mainOrange text-center py-3">
+            <div className="bg-mainOrange text-center py-3 px-5 text-[0.8rem]">
                 © تمامی حقوق وبسایت برای شرکت توسعه کسب‌وكار خلاق و نوآور آرمان محفوظ می‌باشد
             </div>
         </footer>

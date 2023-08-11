@@ -13,8 +13,8 @@ function Cards() {
                     نمایشگاه و بازار محصولات دانش بنیان
                 </h3>
             </div>
-            <div className="mt-16 grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 md:mx-20 gap-10 ">
-                <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 shadow-xl">
+            <div className="mt-16 grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 md:mx-20 gap-10 px-5">
+                <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 px-5 shadow-xl">
                     <div className="w-[4rem] h-[4rem] bg-mainOrange rounded-full p-3 ">
                         <Image src="/costumer.png" alt="costumer" width={0}
                                height={0}
@@ -26,7 +26,7 @@ function Cards() {
                         <p className="mt-5 text-[0.9rem] text-neutral-500" >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
                     </div>
                 </div>
-                <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 shadow-xl">
+                <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 px-5 shadow-xl">
                     <div className="w-[4rem] h-[4rem] flex justify-center items-center bg-mainOrange rounded-full p-3 ">
                         <Image src="/dot.png" alt="costumer" width={0}
                                height={0}
@@ -38,7 +38,7 @@ function Cards() {
                         <p className="mt-5 text-[0.9rem] text-neutral-500" >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
                     </div>
                 </div>
-                <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 shadow-xl">
+                <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 px-5 shadow-xl">
                     <div className="w-[4rem] h-[4rem] bg-mainOrange rounded-full p-3 ">
                         <Image src="/masoul.png" alt="costumer" width={0}
                                height={0}

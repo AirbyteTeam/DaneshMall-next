@@ -2,29 +2,76 @@
 import Link from "next/link"
 import Image from "next/image"
 import "../../styles/home/home.css"
-import { usePathname } from 'next/navigation'
+import {usePathname} from 'next/navigation'
+import {HiMenuAlt3} from "react-icons/hi";
+import {useState} from "react";
+import {IoMdClose} from "react-icons/io";
 
 function Navbar() {
+    const [isShowNavbar, setIsShowNavbar] = useState(false);
+    const handleToggleNavbar = () => {
+        setIsShowNavbar(!isShowNavbar)
+    }
+
     const pathname = usePathname()
     return (
-        <nav className="bg-mainBg w-full h-[4.2rem] flex items-center justify-between px-10">
-                <div className="w-[60%] flex justify-end items-center">
+        <nav className="relative">
+            <div className="bg-mainBg w-full h-[4.2rem] flex items-center justify-between px-10 z-20">
+                <div className="w-[60%] justify-end items-center hidden md:flex">
                     <ul className="flex gap-6">
-                        <li><Link  href="/" className="font-[200]"><span className={pathname === "/" ? "activeNavLink" : "text-white"} >خـانـه</span></Link></li>
-                        <li><Link  href="/about-us" className="font-[200]"><span className={pathname === "/about-us" ? "activeNavLink" : "text-white"} >دربـاره دانش مال</span></Link></li>
-                        <li><Link  href="/service" className="font-[200]"><span className={pathname === "/service" ? "activeNavLink" : "text-white"} >خـدمات</span></Link></li>
-                        <li><Link  href="/contact-us" className="font-[200]"><span className={pathname === "/contact-us" ? "activeNavLink" : "text-white"} >دربـاره ما</span></Link></li>
+                        <li><Link href="/" className="font-[200]"><span
+                            className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
+                        <li><Link href="/about-us" className="font-[200]"><span
+                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره دانش مال</span></Link>
+                        </li>
+                        <li><Link href="/service" className="font-[200]"><span
+                            className={pathname === "/service" ? "activeNavLink" : "text-white"}>خـدمات</span></Link>
+                        </li>
+                        <li><Link href="/contact-us" className="font-[200]"><span
+                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
+                        </li>
                     </ul>
                 </div>
-                <div className="w-[25%] md:w-[15%]">
+                <div className="md:hidden">
+                    <button onClick={handleToggleNavbar} className="transition-all duration-900">
+                        {
+                            isShowNavbar ? (
+                                <IoMdClose className="text-4xl text-white" />
+                            ) : (
+                                <HiMenuAlt3 className="text-4xl text-white"/>
+                            )
+                        }
+                    </button>
+                </div>
+                <div className="w-[40%] sm:w-[25%] md:w-[15%]">
                     <Link href="/">
                         <Image src="/logo.png" alt="costumer" width={0}
                                height={0}
                                sizes="100vw"
-                               style={{ width: '100%', height: 'auto' }}/>
+                               style={{width: '100%', height: 'auto'}}/>
                     </Link>
                 </div>
+            </div>
+            <div className="absolute left-0 right-0 transition-all duration-700 md:hidden" style={isShowNavbar ? {top:"4.2rem"}:{top:"-14rem"}} >
+
+                <div className="bg-mainBg px-10 pb-4">
+                    <ul className="flex flex-col">
+                        <li className="p-4 hover:bg-neutral-700"><Link href="/" className="font-[200]"><span
+                            className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
+                        <li className="p-4 hover:bg-neutral-700"><Link href="/about-us" className="font-[200]"><span
+                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره دانش مال</span></Link>
+                        </li>
+                        <li className="p-4 hover:bg-neutral-700"><Link href="/service" className="font-[200]"><span
+                            className={pathname === "/service" ? "activeNavLink" : "text-white"}>خـدمات</span></Link>
+                        </li>
+                        <li className="p-4 hover:bg-neutral-700"><Link href="/contact-us" className="font-[200]"><span
+                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+
     );
 }
 

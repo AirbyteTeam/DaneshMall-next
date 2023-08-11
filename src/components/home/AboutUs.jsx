@@ -24,8 +24,8 @@ function AboutUs() {
                         style={{ width: '100%', height: 'auto' }}/>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
-                    <div className="header-background flex justify-center">
-                        <div>
+                    <div className="header-background flex content-stretch">
+                        <div className="w-1/6 md:w-1/12">
                             <Image
                                 alt="header-vector"
                                 src='/timeline.svg'
@@ -34,25 +34,25 @@ function AboutUs() {
                                 sizes="100vw"
                                 style={{ width: '100%', height: 'auto' }}/>
                         </div>
-                        <div className="mx-5 space-y-[6.7rem]">
-                            <div className="w-2/3">
-                                <h3 className="font-bold text-2xl text-neutral-800">
+                        <div className="mx-5 flex flex-col content-between justify-between">
+                            <div className="md:w-[100%] lg:w-[2/3]">
+                                <h3 className="font-bold  md:text-xl lg:text-2xl text-neutral-800">
                                     لورم ایپسوم متن
                                 </h3>
                                 <p className="mt-2 text-[0.8rem] text-neutral-700">
                                     دانش‌مال با هدف فراهم‌سازی بستری برای ترویج، معرفی و فروش محصولات دانش‌بنیان ساخت ایران طراحی شده است.
                                 </p>
                             </div>
-                            <div className="w-2/3">
-                                <h3 className="mt-1 font-bold text-2xl text-neutral-800">
+                            <div className="md:w-[100%] lg:w-[2/3]">
+                                <h3 className="mt-1 font-bold md:text-xl lg:text-2xl text-neutral-800">
                                     لورم ایپسوم متن
                                 </h3>
                                 <p className="mt-2 text-[0.8rem] text-neutral-700">
                                     دانش‌مال با هدف فراهم‌سازی بستری برای ترویج، معرفی و فروش محصولات دانش‌بنیان ساخت ایران طراحی شده است.
                                 </p>
                             </div>
-                            <div className="w-2/3">
-                                <h3 className="mt-1 font-bold text-2xl text-neutral-800">
+                            <div className="md:w-[100%] lg:w-[2/3]">
+                                <h3 className="mt-1 font-bold md:text-xl lg:text-2xl text-neutral-800">
                                     لورم ایپسوم متن
                                 </h3>
                                 <p className="mt-2 text-[0.8rem] text-neutral-700">

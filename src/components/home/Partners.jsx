@@ -13,8 +13,8 @@ function Partners() {
                     برند ها و شرکت های معتبر موجود در دانش مال
                 </h3>
                 <div className="mt-10 flex justify-center">
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
-                        <div className="bg-white flex justify-center items-center p-5 rounded-xl">
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 md:gap-10  ">
+                        <div className="bg-white flex justify-center items-center p-5 rounded-xl w-[10rem] md:w-full ">
                             <Image src="/google.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
