@@ -1,0 +1,13 @@
+.activeNavLink{
+    color: #f4951d !important;
+    border-bottom: 1px solid #f4951d !important;
+}
+.header-background{
+    background: url("../../../public/backgroud.svg") no-repeat;
+}
+.vector-background{
+    background: url("../../../public/sevies-vector.svg") no-repeat top left;
+}
+.orange-gradient{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 40%, rgba(244, 149, 29, 0.26) 100%);
+}
