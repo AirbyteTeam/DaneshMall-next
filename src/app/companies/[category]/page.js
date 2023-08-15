@@ -10,6 +10,8 @@ import rtlPlugin from "stylis-plugin-rtl";
 import { prefixer } from "stylis";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
+import { useParams } from 'next/navigation'
+
 import {
     Pagination,
     PaginationItem,
@@ -25,11 +27,15 @@ const cacheRtl = createCache({
 
 export default function Companies() {
     const [companies,setCompanies] = useState({content:[]})
+    const [persianCategory,setPersianCategory] = useState("")
     const [apiInfo,setApiInfo] = useState()
     const [page,setPage] = useState(1)
+    const params = useParams()
+
     const getCompany = async (page) => {
-        const companyResponse = await axios.get(`http://localhost:8090/api/v1/company/findAll?page=${page - 1}&size=9`)
-        setCompanies(companyResponse.data)
+        const companyResponse = await axios.get(`http://localhost:8090/api/v1/company/${params.category}?page=${page - 1}&size=9`)
+        setPersianCategory(companyResponse.data.persianName)
+        setCompanies(companyResponse.data.data)
     }
 
     useEffect(() => {
@@ -60,6 +66,9 @@ export default function Companies() {
                         جستجو
                     </button>
                 </div>
+            </div>
+            <div className="mt-10">
+                <h2 className="text-black text-xl">{persianCategory}</h2>
             </div>
             <div className="">
                 <div className="flex flex-wrap justify-center  gap-5 my-[10px]">

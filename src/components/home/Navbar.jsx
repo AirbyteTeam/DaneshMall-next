@@ -17,18 +17,18 @@ function Navbar() {
     return (
         <nav className="relative">
             <div className="bg-mainBg w-full h-[4.2rem] flex items-center justify-between px-10 z-20">
-                <div className="w-[60%] justify-end items-center hidden md:flex">
-                    <ul className="flex gap-6">
-                        <li><Link href="/" className="font-[200]"><span
+                <div className="w-[62%] justify-end items-center hidden md:flex">
+                    <ul className="flex gap-2">
+                        <li><Link href="/" className="font-[200] px-3 py-2"><span
                             className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
-                        <li><Link href="/about-us" className="font-[200]"><span
-                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره دانش مال</span></Link>
+                        <li><Link href="/about-us" className="font-[200] px-3 py-2"><span
+                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
                         </li>
-                        <li><Link href="/service" className="font-[200]"><span
-                            className={pathname === "/service" ? "activeNavLink" : "text-white"}>خـدمات</span></Link>
+                        <li><Link href="/companies" className="font-[200] px-3 py-2"><span
+                            className={pathname === "/companies" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
                         </li>
-                        <li><Link href="/contact-us" className="font-[200]"><span
-                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
+                        <li><Link href="/contact-us" className="font-[200] px-3 py-2"><span
+                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}> تـماس بـا مـا</span></Link>
                         </li>
                     </ul>
                 </div>
@@ -56,15 +56,15 @@ function Navbar() {
 
                 <div className="bg-mainBg px-10 pb-4">
                     <ul className="flex flex-col">
-                        <li className="p-4 hover:bg-neutral-700"><Link href="/" className="font-[200]"><span
+                        <li className=""><Link href="/" className="font-[200] block p-4 hover:bg-neutral-700"><span
                             className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
-                        <li className="p-4 hover:bg-neutral-700"><Link href="/about-us" className="font-[200]"><span
+                        <li className=""><Link href="/about-us" className="font-[200] block p-4 hover:bg-neutral-700"><span
                             className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره دانش مال</span></Link>
                         </li>
-                        <li className="p-4 hover:bg-neutral-700"><Link href="/service" className="font-[200]"><span
-                            className={pathname === "/service" ? "activeNavLink" : "text-white"}>خـدمات</span></Link>
+                        <li className=""><Link href="/companies" className="font-[200] block p-4 hover:bg-neutral-700"><span
+                            className={pathname === "/companies" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
                         </li>
-                        <li className="p-4 hover:bg-neutral-700"><Link href="/contact-us" className="font-[200]"><span
+                        <li className=""><Link href="/contact-us" className="font-[200] block p-4 hover:bg-neutral-700"><span
                             className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
                         </li>
                     </ul>

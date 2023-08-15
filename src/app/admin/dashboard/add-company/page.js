@@ -464,7 +464,6 @@ const AddCompany = () =>{
                                             />}/>
                             </ThemeProvider>
                         </CacheProvider>
-
                     </div>
                 </div>
             </div>

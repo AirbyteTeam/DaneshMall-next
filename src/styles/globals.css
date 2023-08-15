@@ -6,19 +6,17 @@ body{
     direction: rtl !important;
 }
 .cardImage2{
-    display: none;
-   
+    opacity: 0;
 }
+
 .cardcontainer:hover .cardImage2 {
-
-    display:block;
-    
-   
+    opacity: 1;
 }
+
 .cardcontainer:hover .cardImage1 {
-
-    display: none;
-   
+    opacity: 0.2;
 }
+
 .opacity{
-    opacity: 0.2;}
+    opacity: 0.2;
+}
