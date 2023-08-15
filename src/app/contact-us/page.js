@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import CommentForm from "../../components/contact-us/CommentForm";
 import WaysToContactUs from "../../components/contact-us/WaysToContactUs";
+import Map from "@/components/contact-us/Map";
 
 export default function ContactUs() {
   return (
@@ -11,11 +12,10 @@ export default function ContactUs() {
           <Image
             src={"/images/Frame 317.png"}
             quality={100}
-            alt=""
+            alt="contact-us"
             priority={true}
             width={660}
             height={400}
-            className=""
           />
         </div>
         <div className="">
@@ -33,15 +33,14 @@ export default function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex justif-center items-center">
+            <div className="flex justify-center items-center">
               <Image
                 priority={true}
                 quality={100}
                 src={"/images/Paper plane.png"}
-                alt=""
+                alt="paper-plane"
                 width={150}
                 height={150}
-                sizes=""
               />
             </div>
           </div>

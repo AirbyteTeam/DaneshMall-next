@@ -1,6 +1,6 @@
 import React from 'react'
 import {FiPhoneCall} from "react-icons/fi"
-import {MdEmail, MdLocationPin} from "react-icons/md"
+import { MdLocationPin} from "react-icons/md"
 import {FiMail} from "react-icons/fi"
 
 export default function WaysToContactUs() {
