@@ -10,14 +10,14 @@ export default function Sidebar() {
 
     return (
         <>
-            <div className='sidebar-dashboard close' id='sidebar'>
+            <div className='sidebar-dashboard' id='sidebar'>
                 <div id='close_sidebar_mobile' onClick={closeSidebar}>
                     بستن
                 </div>
                 <div className="logo">
                 </div>
                 <div className="sidebar-list mt-4">
-                    <Link href="/admin/dashboard/add-company" className='w-100'>
+                    <Link onClick={closeSidebar} href="/admin/dashboard/add-company" className='w-100'>
                         <div className="flex flex-row items-center sidebar-list-item">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                  stroke="currentColor" width='24' height='24'>

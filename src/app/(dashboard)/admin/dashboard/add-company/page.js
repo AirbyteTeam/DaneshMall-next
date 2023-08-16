@@ -1,13 +1,13 @@
 'use client';
 import Image from 'next/image'
 import React, {useEffect, useState} from "react";
-import "../../../../styles/dashboard/Admin/crowdFounding.css";
+import "../../../../../styles/dashboard/Admin/crowdFounding.css";
 import Tooltip from '@mui/material/Tooltip';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogTitle from '@mui/material/DialogTitle';
-import api from "../../../../hooks/api/api";
+import api from "../../../../../hooks/api/api";
 import {IoAdd} from "react-icons/io5";
 import axios from "axios";
 import {toast} from "react-toastify";
