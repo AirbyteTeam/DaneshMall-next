@@ -6,7 +6,7 @@ import {FiMail} from "react-icons/fi"
 export default function WaysToContactUs() {
   return (
     
-    <div className='flex flex-col h-full justify-between'>
+    <div className='flex flex-col h-full justify-around'>
         <div className='flex lg:my-0 my-4 '>
             <div className='flex items-center justify-center'>
                 <div className='bg-[#f8961f] text-white rounded-full flex items-center justify-center p-3'>

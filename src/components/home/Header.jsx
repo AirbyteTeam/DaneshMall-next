@@ -23,7 +23,7 @@ function Header() {
                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک الورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.ست.
                     </p>
                     <div className="mt-5 mb-10 md:my-5">
-                        <button className="text-white font-bold rounded-full px-16 md:px-20 py-2 bg-mainOrange hover:bg-transparent hover:border hover:border-mainOrange hover:border-1 hover:text-neutral-500">ورود به نمایشگاه</button>
+                        <a href="https://entrance.daneshmall.com" className="text-white font-bold rounded-full px-16 md:px-20 py-2 bg-mainOrange hover:bg-transparent hover:border hover:border-mainOrange hover:border-1 hover:text-neutral-500">ورود به نمایشگاه</a>
                     </div>
                 </div>
             </div>

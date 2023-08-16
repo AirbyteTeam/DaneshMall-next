@@ -16,7 +16,7 @@ function Cards() {
             <div className="mt-16 grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 md:mx-20 gap-10 px-5">
                 <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 px-5 shadow-xl">
                     <div className="w-[4rem] h-[4rem] bg-mainOrange rounded-full p-3 ">
-                        <Image src="/costumer.png" alt="costumer" width={0}
+                        <Image src="/costumer.svg" alt="costumer" width={0}
                                height={0}
                                sizes="100vw"
                                style={{ width: '100%', height: 'auto' }}/>
@@ -28,7 +28,7 @@ function Cards() {
                 </div>
                 <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 px-5 shadow-xl">
                     <div className="w-[4rem] h-[4rem] flex justify-center items-center bg-mainOrange rounded-full p-3 ">
-                        <Image src="/dot.png" alt="costumer" width={0}
+                        <Image src="/dot.svg" alt="costumer" width={0}
                                height={0}
                                sizes="100vw"
                                style={{ width: '50%', height: 'auto' }}/>
@@ -40,7 +40,7 @@ function Cards() {
                 </div>
                 <div className="bg-white flex flex-col justify-center items-center rounded-2xl py-10 px-5 shadow-xl">
                     <div className="w-[4rem] h-[4rem] bg-mainOrange rounded-full p-3 ">
-                        <Image src="/masoul.png" alt="costumer" width={0}
+                        <Image src="/poltic.svg" alt="costumer" width={0}
                                height={0}
                                sizes="100vw"
                                style={{ width: '100%', height: 'auto' }}/>

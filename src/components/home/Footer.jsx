@@ -12,7 +12,7 @@ function Footer() {
                     <div className="">
                         <div className="w-[90%]">
                             <Link href="/">
-                                <Image src="/logo.png" alt="costumer" width={0}
+                                <Image src="/logo.svg" alt="costumer" width={0}
                                        height={0}
                                        sizes="100vw"
                                        style={{ width: '100%', height: 'auto' }}/>
@@ -90,7 +90,7 @@ function Footer() {
                 </div>
             </div>
             <div className="bg-mainOrange text-center py-3 px-5 text-[0.8rem]">
-                © تمامی حقوق وبسایت برای شرکت توسعه کسب‌وكار خلاق و نوآور آرمان محفوظ می‌باشد
+                © تمامی حقوق وبسایت برای <Link href="/admin/login">شرکت</Link> توسعه کسب‌وكار خلاق و نوآور آرمان محفوظ می‌باشد
             </div>
         </footer>
     );

@@ -45,10 +45,10 @@ export default function Companies() {
                     <h1 className="text-4xl font-bold">شرکت ها</h1>
                 </div>
                 <div className="flex w-full h-[20rem]">
-                    <Image
+                    <img
                         className="object-cover"
                         alt="header-vector"
-                        src='/header.jpg'
+                        src='https://cloud.daneshmall.com/header.jpg'
                         width={0}
                         height={0}
                         sizes="100vw"

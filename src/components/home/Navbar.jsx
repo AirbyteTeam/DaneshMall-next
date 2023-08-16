@@ -45,27 +45,27 @@ function Navbar() {
                 </div>
                 <div className="w-[40%] sm:w-[25%] md:w-[15%]">
                     <Link href="/">
-                        <Image src="/logo.png" alt="costumer" width={0}
+                        <Image src="/logo.svg" alt="costumer" width={0}
                                height={0}
                                sizes="100vw"
                                style={{width: '100%', height: 'auto'}}/>
                     </Link>
                 </div>
             </div>
-            <div className="absolute left-0 right-0 transition-all duration-700 md:hidden" style={isShowNavbar ? {top:"4.2rem"}:{top:"-14rem"}} >
+            <div className="absolute left-0 right-0 transition-all duration-700 md:hidden z-10" style={isShowNavbar ? {top:"4.2rem"}:{top:"-14rem"}} >
 
                 <div className="bg-mainBg px-10 pb-4">
                     <ul className="flex flex-col">
-                        <li className=""><Link href="/" className="font-[200] block p-4 hover:bg-neutral-700"><span
+                        <li className=""><Link href="/" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
                             className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
-                        <li className=""><Link href="/about-us" className="font-[200] block p-4 hover:bg-neutral-700"><span
-                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره دانش مال</span></Link>
+                        <li className=""><Link href="/about-us" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
+                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"} >دربـاره دانش مال</span></Link>
                         </li>
-                        <li className=""><Link href="/companies" className="font-[200] block p-4 hover:bg-neutral-700"><span
+                        <li className=""><Link href="/companies" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
                             className={pathname === "/companies" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
                         </li>
-                        <li className=""><Link href="/contact-us" className="font-[200] block p-4 hover:bg-neutral-700"><span
-                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
+                        <li className=""><Link href="/contact-us" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
+                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>تماس با ما</span></Link>
                         </li>
                     </ul>
                 </div>

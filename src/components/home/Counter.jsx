@@ -23,7 +23,7 @@ function Counter() {
                             <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
-                                        <Image src="/medal.png" alt="costumer" width={0}
+                                        <Image src="/medal.svg" alt="costumer" width={0}
                                                height={0}
                                                sizes="100vw"
                                                style={{ width: '100%', height: 'auto' }}/>
@@ -69,7 +69,7 @@ function Counter() {
                             <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
-                                        <Image src="/support.png" alt="costumer" width={0}
+                                        <Image src="/support.svg" alt="costumer" width={0}
                                                height={0}
                                                sizes="100vw"
                                                style={{ width: '100%', height: 'auto' }}/>
@@ -92,7 +92,7 @@ function Counter() {
                             <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
-                                        <Image src="/project-management.png" alt="costumer" width={0}
+                                        <Image src="/project-management.svg" alt="costumer" width={0}
                                                height={0}
                                                sizes="100vw"
                                                style={{ width: '100%', height: 'auto' }}/>

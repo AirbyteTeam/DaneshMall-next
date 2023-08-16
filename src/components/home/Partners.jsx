@@ -14,45 +14,45 @@ function Partners() {
                 </h3>
                 <div className="mt-10 flex justify-center">
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 md:gap-10  ">
-                        <div className="bg-white flex justify-center items-center p-5 rounded-xl w-[10rem] md:w-full ">
-                            <Image src="/google.png" alt="costumer" width={0}
+                        <div className="bg-white flex justify-center items-center p-5 rounded-xl md:w-full ">
+                            <img src="https://cloud.daneshmall.com/google.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl">
-                            <Image src="/pay.png" alt="costumer" width={0}
+                            <img src="https://cloud.daneshmall.com/pay.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl">
-                            <Image src="/clickup.png" alt="costumer" width={0}
+                            <img src="https://cloud.daneshmall.com/clickup.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl">
-                            <Image src="/dropbox.png" alt="costumer" width={0}
+                            <img src="https://cloud.daneshmall.com/dropbox.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
 
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl">
-                            <Image src="/Elastic.png" alt="costumer" width={0}
+                            <img src="https://cloud.daneshmall.com/Elastic.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl">
-                            <Image src="/GitHub.png" alt="costumer" width={0}
+                            <img src="https://cloud.daneshmall.com/GitHub.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl">
-                            <Image src="/helpscout.png" alt="costumer" width={0}
+                            <img src="https://cloud.daneshmall.com/HubSpot.png" alt="costumer" width={0}
                                    height={0}
                                    sizes="100vw"
                                    style={{ width: '100%', height: 'auto' }}/>

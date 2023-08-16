@@ -9,7 +9,7 @@ export default function ContactUs() {
       <div className="flex md:flex-row flex-col justify-between md:gap-4 gap-8 md:px-4 px-3 shadow-2xl rounded-[1.875rem] shadow-[#4b00811f] pt-10 pb-4 md:mx-5 lg:mx-10 lg:px-10 mx-4">
         <div className="flex justify-center items-center">
           <Image
-            src={"/images/Frame 317.png"}
+            src={"/contactUs.svg"}
             quality={100}
             alt="contact-us"
             priority={true}
@@ -36,7 +36,7 @@ export default function ContactUs() {
               <Image
                 priority={true}
                 quality={100}
-                src={"/images/Paper plane.png"}
+                src={"/send.svg"}
                 alt="paper-plane"
                 width={150}
                 height={150}
@@ -46,17 +46,15 @@ export default function ContactUs() {
           <CommentForm />
         </div>
       </div>
-      <div className="flex gap-4 md:flex-row flex-col justify-between md:px-10 px-4 mx-4 lg:mx-16 ">
+      <div className="flex gap-4 md:flex-row flex-col justify-between md:px-10 px-4 mx-4 lg:mx-16 my-5">
         <div className="flex justify-center items-center">
           <WaysToContactUs />
         </div>
         <div className="flex justify-center items-center">
-          <Image
-            src={"/images/Rectangle 6064.png"}
-            quality={100}
+          <img
+            src={"https://cloud.daneshmall.com/Rectangle 6064.png"}
             width={600}
             height={150}
-            priority={true}
             alt="map"
             className="rounded-lg"
           />

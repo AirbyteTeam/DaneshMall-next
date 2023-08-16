@@ -17,7 +17,7 @@ export default function AboutUS() {
           </p>
         </div>
         <div className="flex-1">
-          <Image src="/images/Asset 1 10.png" alt="costumer" width={0}
+          <Image src="/aboutUsVector.svg" alt="costumer" width={0}
                  height={0}
                  sizes="100vw"
                  style={{width: '100%', height: 'auto'}}/>
