@@ -22,13 +22,13 @@ function Navbar() {
                         <li><Link href="/" className="font-[200] px-3 py-2"><span
                             className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
                         <li><Link href="/about-us" className="font-[200] px-3 py-2"><span
-                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
+                            className={pathname === "/about-us/" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
                         </li>
                         <li><Link href="/companies" className="font-[200] px-3 py-2"><span
-                            className={pathname === "/companies" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
+                            className={pathname === "/companies/" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
                         </li>
                         <li><Link href="/contact-us" className="font-[200] px-3 py-2"><span
-                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}> تـماس بـا مـا</span></Link>
+                            className={pathname === "/contact-us/" ? "activeNavLink" : "text-white"}> تـماس بـا مـا</span></Link>
                         </li>
                     </ul>
                 </div>
@@ -59,13 +59,13 @@ function Navbar() {
                         <li className=""><Link href="/" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
                             className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
                         <li className=""><Link href="/about-us" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
-                            className={pathname === "/about-us" ? "activeNavLink" : "text-white"} >دربـاره دانش مال</span></Link>
+                            className={pathname === "/about-us/" ? "activeNavLink" : "text-white"} >دربـاره دانش مال</span></Link>
                         </li>
                         <li className=""><Link href="/companies" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
-                            className={pathname === "/companies" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
+                            className={pathname === "/companies/" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
                         </li>
                         <li className=""><Link href="/contact-us" className="font-[200] block p-4 hover:bg-neutral-700" onClick={handleToggleNavbar}><span
-                            className={pathname === "/contact-us" ? "activeNavLink" : "text-white"}>تماس با ما</span></Link>
+                            className={pathname === "/contact-us/" ? "activeNavLink" : "text-white"}>تماس با ما</span></Link>
                         </li>
                     </ul>
                 </div>
