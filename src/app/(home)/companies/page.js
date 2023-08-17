@@ -20,7 +20,9 @@ const cacheRtl = createCache({
     stylisPlugins: [prefixer, rtlPlugin],
 });
 
-export default function Companies() {
+export const dynamicParams = true
+
+export default function Category() {
     const [companies, setCompanies] = useState({content: []})
     const [apiInfo, setApiInfo] = useState()
     const [page, setPage] = useState(1)

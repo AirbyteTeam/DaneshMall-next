@@ -46,7 +46,7 @@ function Counter() {
                             <div className=" mb-14 ">
                                 <div className="text-center text-white flex flex-col items-center justify-center">
                                     <div className="mb-8 w-[6rem] h-[6rem] bg-mainOrange rounded-full p-5  flex items-center ">
-                                        <Image src="/costumer.png" alt="costumer" width={0}
+                                        <Image src="/costumer.svg" alt="costumer" width={0}
                                                height={0}
                                                sizes="100vw"
                                                style={{ width: '100%', height: 'auto' }}/>
