@@ -11,3 +11,23 @@
 .orange-gradient{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 40%, rgba(244, 149, 29, 0.26) 100%);
 }
+.title-about-us{
+    
+    background: url("../../../public/aboutusbg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.header-about-us{
+    background: rgb(48,48,48);
+    background: radial-gradient(circle, rgba(48,48,48,1) 44%, rgba(91,60,38,1) 100%);
+}
+.header-about-us-button{
+    background: rgb(218, 152, 54);
+    background: linear-gradient(90deg, rgb(218, 152, 54) 0%, rgba(226,144,22,1) 100%);
+}
+.header-about-us-button:hover{
+    background: rgb(218, 137, 17);
+    background: linear-gradient(90deg, rgb(218, 137, 17) 0%, rgb(228, 141, 10) 100%);
+}

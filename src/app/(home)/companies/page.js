@@ -80,6 +80,7 @@ export default function Category() {
           </div>
         </div>
       </div>
+      <Categories />
       <div className="mt-28 px-5 sm:px-10 md:px-36">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 my-[10px]">
           {companies.content.map((company) => (
@@ -111,7 +112,6 @@ export default function Category() {
           </CacheProvider>
         </div>
       </div>
-      <Categories />
     </div>
   );
 }
