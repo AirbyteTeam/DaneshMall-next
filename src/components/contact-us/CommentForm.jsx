@@ -1,6 +1,8 @@
 "use client"
 import {useForm} from "react-hook-form"
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -8,7 +10,7 @@ import React from 'react'
 export default function CommentForm() {
    
   
-    
+  const notificationFormSubmiter = () => toast.success(" ! پیام شما با موفقیت ثبت شد ");
     const  {register,handleSubmit,resetField,formState:{errors},watch,} = useForm()
     const FormSubmiter=()=>{
          
@@ -56,7 +58,20 @@ export default function CommentForm() {
         <textarea rows="10" className="peer px-2  border bg-[#fefbf8] border-[#b4bec8] placeholder:text-[#9f9f9f]   py-2  text-xs rounded-md " placeholder=" متن پیام خود را وارد کنید" {...register("message",{required:true})}/>
         
         {errors.message && errors.message.type=="required" && <div className="text-xs text-red-700">لطفا متن پیام خود را وارد کنید!</div>}
-        <button type="submit" className="bg-[#f8961f] hover:bg-[#ff8c00] text-white py-2 text-lg font-bold rounded-lg my-4">ثبت</button>
+        <button type="submit" onClick={notificationFormSubmiter} className="bg-[#f8961f] hover:bg-[#ff8c00] text-white py-2 text-lg font-bold rounded-lg my-4">ثبت</button>
+        <ToastContainer
+           position="bottom-right"
+           autoClose={2000}
+           hideProgressBar={false}
+           newestOnTop={false}
+           closeOnClick
+           rtl={false}
+           pauseOnFocusLoss
+           draggable
+           className="font-bold"
+           pauseOnHover={false}
+           theme="colored"
+        />
     </form>
   )
   }
