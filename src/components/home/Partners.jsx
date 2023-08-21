@@ -1,3 +1,5 @@
+"use client"
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Link from "next/link"
 import Image from "next/image"
@@ -9,11 +11,14 @@ function Partners() {
                 <h2 className="mt-5 w-[8rem] h-[2rem] bg-[#FFF1EC] text-mainOrange rounded-full text-[1rem]">
                     همکاران ما
                 </h2>
+                <ScrollAnimation animateIn='animate__fadeInDown'>
                 <h3 className="mt-10 font-bold text-[1.7rem]">
                     برند ها و شرکت های معتبر موجود در دانش مال
                 </h3>
+                </ScrollAnimation>
                 <div className="mt-10 flex justify-center">
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 md:gap-10  ">
+                <ScrollAnimation animateIn='animate__fadeInDown'>
+                    <div  className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 md:gap-10  ">
                         <div className="bg-white flex justify-center items-center p-5 rounded-xl md:w-full ">
                             <img src="https://cloud.daneshmall.com/google.png" alt="costumer" width={0}
                                    height={0}
@@ -58,6 +63,8 @@ function Partners() {
                                    style={{ width: '100%', height: 'auto' }}/>
                         </div>
                     </div>
+                    </ScrollAnimation>
+                    
                 </div>
             </div>
         </section>
