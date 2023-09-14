@@ -18,19 +18,16 @@ function Header() {
             </div>
             <div className="flex-1 header-background flex justify-center items-center">
             
-                <div className="w-2/3 mt-20">
+                <div className="w-2/3 mt-20 flex justify-center">
                 <ScrollAnimation  animateIn="animate__fadeInLeft">
-                    <h1 className="text-[1.5rem] md:text-[1.2rem] lg:text-[2rem] font-bold">
+                    <h1 className="text-[1.5rem] md:text-[1.2rem] lg:text-[2rem] font-bold flex flex-col justify-center items-center text-center">
                     
-                        <span className="text-mainOrange">دانش مال</span>   نخستین و بزرگترین بازار محصولات دانش بنیان ساخت ایران با فناوری واقعیت مجازی
-                         </h1>
+                        <span className=" text-mainOrange text-[2rem] md:text-[1.6rem] lg:text-[2.7rem] mb-8">دانش‌مال</span><span>نخستین و بزرگترین بازار محصولات</span><span>دانش‌بنیان ساخت ایران با فناوری واقعیت مجازی</span>   </h1>
                         
                     
-                    <p className="text-[0.8rem] mt-5  lg:text-[0.9rem] text-neutral-500">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک الورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.ست.
-                    </p>
-                    <div className="mt-5 mb-10 md:my-5">
-                        <a href="https://entrance.daneshmall.com" className="text-white font-bold rounded-full px-16 md:px-20 py-2 bg-mainOrange hover:bg-transparent hover:border hover:border-mainOrange hover:border-1 hover:text-neutral-500">ورود به نمایشگاه</a>
+                   
+                    <div className="mt-5 mb-10 md:my-5 flex justify-center">
+                        <a href="https://entrance.daneshmall.com" className="text-white font-bold rounded-full px-16 lg:px-20 py-2 bg-mainOrange hover:bg-transparent hover:border hover:border-mainOrange hover:border-1 hover:text-neutral-500">ورود به نمایشگاه</a>
                     </div>
                     </ScrollAnimation>
                 </div>

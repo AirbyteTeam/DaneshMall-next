@@ -20,20 +20,20 @@ function Footer() {
                         </div>
                         <div className="mt-7">
                             <h2 className="text-white text-[0.7rem]">
-                                دانش‌مال با هدف فراهم‌سازی بستری برای ترویج، معرفی و فروش محصولات دانش‌بنیان ساخت ایران طراحی شده است.
+                                <span className="text-mainOrange">دانش‌مال</span> با هدف فراهم‌سازی بستری برای ترویج، معرفی و فروش محصولات دانش‌بنیان ساخت ایران طراحی شده است.
                             </h2>
                             <div className="mt-5 flex justify-center items-center gap-4">
-                                <a href="#" target="_blank"><img src="/eitaa-icon.svg" className="w-6 h-6"/></a>
-                                <a href="#" target="_blank"><IoLogoWhatsapp className="text-[#EF7F1A] text-[1.7rem]"/></a>
+                                <a href="https://eitaa.com/DaneshMall" target="_blank"><img src="/eitaa-icon.svg" className="w-6 h-6"/></a>
+                                <a href="https://chat.whatsapp.com/DaneshMall" target="_blank"><IoLogoWhatsapp className="text-[#EF7F1A] text-[1.7rem]"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="">
-                        <h3 className="text-[1.2rem] font-bold text-mainOrange">صفحات</h3>
+                        <h3 className="text-[1.2rem] font-bold text-mainOrange">فهرست</h3>
                         <div className="mt-5  space-y-5">
                             <div className="flex">
                                 <RiArrowLeftSLine className="text-mainOrange text-[1.7rem]"/>
-                                <Link href="/" className="text-white text-[1rem] hover:text-neutral-500">خانه</Link>
+                                <Link href="/" className="text-white text-[1rem] hover:text-neutral-500">صفحه‌نخست</Link>
                             </div>
                             <div className="flex">
                                 <RiArrowLeftSLine className="text-mainOrange text-[1.7rem]"/>
@@ -41,7 +41,7 @@ function Footer() {
                             </div>
                             <div className="flex">
                                 <RiArrowLeftSLine className="text-mainOrange text-[1.7rem]"/>
-                                <Link href="/service" className="text-white text-[1rem] hover:text-neutral-500">خدمات ما</Link>
+                                <Link href="/service" className="text-white text-[1rem] hover:text-neutral-500">شرکت‌های دانش‌مال</Link>
                             </div>
                             <div className="flex">
                                 <RiArrowLeftSLine className="text-mainOrange text-[1.7rem]"/>

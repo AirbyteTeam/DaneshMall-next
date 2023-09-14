@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 export default function Categories() {
   return (
-    <div className="flex flex-col space-y-16 my-48">
+    <div className="flex flex-col space-y-16 my-32">
       <div>
         <p className="text-[#303030] text-center font-bold text-xl">
-          دسته بندی های نمایشگاه
+        دسته‌بندی‌های  <span className='text-mainOrange'>دانش‌مال</span>
         </p>
       </div>
     <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center gap-4 xl:mx-48 lg:mx-36 sm:mx-28 mx-16'>

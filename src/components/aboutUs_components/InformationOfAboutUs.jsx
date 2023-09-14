@@ -35,7 +35,7 @@ export default function InformationOfAboutUs() {
         <div className="flex-[2.1] flex flex-col justify-center">
           <h1
             className="text-[2rem] font-bold text-[#292E40] mb-8">
-            مشتریان
+              بازدیدکنندگان
           </h1>
           <p className="text-[1.1rem] font-normal text-[#878080] ">
             تبلیغ، معرفی و ترویج کالا و خدمات تولیدی شرکت های دانش بنیان و
@@ -50,7 +50,7 @@ export default function InformationOfAboutUs() {
         <div className="flex-[2.1] flex flex-col justify-center">
           <h1
               className="text-[2rem] font-bold text-[#292E40] mb-8">
-            مسئولان و سیاستگذاران
+            سیاستگذاران
           </h1>
           <p className="text-[1.1rem] font-normal text-[#878080] leading-[33px]">
             تبلیغ، معرفی و ترویج کالا و خدمات تولیدی شرکت های دانش بنیان و

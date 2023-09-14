@@ -19,15 +19,15 @@ function Navbar() {
             <div className="bg-mainBg w-full h-[4.2rem] flex items-center justify-between px-10 z-20">
                 <div className="w-[62%] justify-end items-center hidden md:flex">
                     <ul className="flex gap-2">
-                        <li><Link href="/" className="font-[200] px-3 py-2"><span
-                            className={pathname === "/" ? "activeNavLink" : "text-white"}>خـانـه</span></Link></li>
-                        <li><Link href="/about-us" className="font-[200] px-3 py-2"><span
-                            className={pathname === "/about-us/" ? "activeNavLink" : "text-white"}>دربـاره ما</span></Link>
+                        <li><Link href="/" className="font-[200] lg:px-3 px-1 py-2"><span
+                            className={pathname === "/" ? "activeNavLink" : "text-white"}>صفحه‌نخست</span></Link></li>
+                        <li><Link href="/about-us" className="font-[200] lg:px-3 px-1 py-2"><span
+                            className={pathname === "/about-us/" ? "activeNavLink" : "text-white"}>درباره‌ ما</span></Link>
                         </li>
-                        <li><Link href="/companies" className="font-[200] px-3 py-2"><span
-                            className={pathname === "/companies/" ? "activeNavLink" : "text-white"}>شرکت ها</span></Link>
+                        <li><Link href="/companies" className="font-[200] lg:px-3 px-1 py-2"><span
+                            className={pathname === "/companies/" ? "activeNavLink" : "text-white"}>شرکت‌های دانش‌مال</span></Link>
                         </li>
-                        <li><Link href="/contact-us" className="font-[200] px-3 py-2"><span
+                        <li><Link href="/contact-us" className="font-[200] lg:px-3 px-1 py-2"><span
                             className={pathname === "/contact-us/" ? "activeNavLink" : "text-white"}> تـماس بـا مـا</span></Link>
                         </li>
                     </ul>
