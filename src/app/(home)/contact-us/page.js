@@ -9,7 +9,7 @@ export default function ContactUs() {
       <div className="flex md:flex-row flex-col justify-between md:gap-4 gap-8 md:px-4 px-3 shadow-2xl rounded-[1.875rem] shadow-[#4b00811f] pt-10 pb-4 md:mx-5 lg:mx-10 lg:px-10 mx-4">
         <div className="flex justify-center items-center">
           <Image
-            src={"/contactUs.svg"}
+            src={"/text-icon.svg"}
             quality={100}
             alt="contact-us"
             priority={true}
@@ -22,13 +22,14 @@ export default function ContactUs() {
             <div>
               <div className="md:text-4xl text-3xl flex font-bold">
                 <p className="">
-                  تماس با <span className="text-[#f8961f]"> دانش مال</span>
+                  تماس با <span className="text-[#f8961f]">دانش‌مال</span>
                 </p>
               </div>
               <div className="my-8">
                 <p className="text-[#202020] text-sm">
-                  کاربر گرامی دانش مال؛ باعث افتخار ماست تا نظرات خود را با ما
-                  از طریق این فرم به اشتراک بگذارید.
+                  کاربر گرامی <span className="text-mainOrange">دانش‌مال</span>{" "}
+                  باعث افتخار ماست تا نظرات خود را با ما از طریق این فرم به
+                  اشتراک بگذارید.
                 </p>
               </div>
             </div>

@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
 import Link from 'next/link'
+import {BiMessageDetail} from "react-icons/bi"
 import '../../styles/dashboard/dashboard.css'
 export default function Sidebar() {
     const closeSidebar = () => {
@@ -29,8 +30,17 @@ export default function Sidebar() {
                             </div>
                         </div>
                     </Link>
+                    <Link onClick={closeSidebar} href="/admin/dashboard/massage" className='w-100'>
+                        <div className="flex flex-row items-center sidebar-list-item">
+                           <BiMessageDetail className="w-6 h-6 text-[#7E8299] "/>
+                            <div className="sidebar-list-item-title">
+                                پیام ها
+                            </div>
+                        </div>
+                    </Link>
                     <Link onClick={() => localStorage.clear()} href="/" className={"w-100"}>
                         <div className="flex flex-row items-center sidebar-list-item">
+                            
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                  stroke="currentColor" width='24' height='24'>
                                 <path strokeLinecap="round" strokeLinejoin="round"

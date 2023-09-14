@@ -9,7 +9,7 @@ export default function Card({title, id, redirectUrl, imgUrl}) {
             <div
                 className="cardImage2 w-full h-[15rem] text-xl font-bold text-[#364F6B] absolute top-0 left-0 text-center">
                 <div className="w-full h-full flex justify-center items-center ">
-                    <div className="w-[90%] h-[90%] flex justify-center items-center  border border-2 border-black">
+                    <div className="w-[90%] h-[90%] flex justify-center items-center  border-2 border-black">
                         <h4>مشاهده غرفه</h4>
                     </div>
                 </div>
